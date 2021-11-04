@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hpage {
+    background-color: hsl(233, 47%, 7%);
+}
+
+.hp {
+    padding-top: 150px;
+    padding-bottom: 300px;
+}
+.hp h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-size: 80px;
+    color: aquamarine;
+}
+.hp p {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    word-spacing: 7px;
+    font-size: 20px;
+}
+.hmPge h4 {
+    text-align: center;
+    border-radius: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 8px;
+    background-color: beige;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.hmPge h4 img {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+.hmPge {
+    padding-top: 150px;
+}
+
+.services h1 {
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: hsl(233, 47%, 7%);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
+.serv {
+    padding-bottom: 200px;
+}
+.services img {
+    border-radius: 10px 0px 0px 10px;
+}
+.servList {
+    background-color: beige;
+    border-radius: 0px 10px 10px 0px ;
+}
+.servList li {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 23.9px;
+    list-style-type: circle;
+}
+
+.customer {
+    background-color: hsl(233, 47%, 7%);
+}
+.customer h1 {
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.customer p {
+    color: white;
+    font-family:  'Inter', sans-serif;
+}
+.customer ul {
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+.customer h2 {
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.custPage {
+    padding-bottom: 250px;
+}
+
+.dload h1 {
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: hsl(233, 47%, 7%);
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.dload p {
+    color: hsl(233, 47%, 7%);
+    font-family:  'Inter', sans-serif;
+    text-align: center;
+}
+.dload a {
+    text-decoration: none;
+}
+.dwload {
+    padding-bottom: 100px;
+}
+
+.package {
+    background-color: hsl(233, 47%, 7%);
+}
+.package h1 {
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.packp {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.package dl {
+    border-radius: 11px;
+    background-color: beige;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 100px;
+}
+.package dt {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.package dd {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.pack {
+    padding-bottom: 250px;
+}
+
+.testimony h1 {
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: hsl(233, 47%, 7%);
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.box-1 {
+    border-radius: 15px;
+    background-color: beige;
+    width: 100%;
+    height: auto;
+    color:hsl(233, 47%, 7%);
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.inner {
+    display: flex;
+    margin-top: 40px;
+    padding-top: 40px;
+
+}
+.testimony img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.inner img{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.testimonial {
+    padding-bottom: 250px;
+}
+footer{
+	background: #212121;
+	padding: 20px 0;
+	
+}
+
+.footer-social{
+	text-align: center;
+}
+
+
+.footer-social p{
+	display: inline-block;
+	color: #be9342;
+	font-size: 16px;
+	padding: 0 8px;
+	transform: all 0.3s;
+}
+
+.footer-social i:hover{
+	color: #fff;
+}
+
+.site-info{
+	text-align: center;
+	padding: 20px 0;
+}
+
+.site-info p{
+	font-size: 14px;
+	color: #c1c1c1;
+	letter-spacing: 0.04em;
+	margin-bottom: 0;
+}
+
+.site-info p a{
+	color: #e2e2e2;
+}
+
+.site-info p a:hover{
+	color: #be9342;
+}
+
+.footer-menu ul{
+    display: flex;
+    justify-content: center;
+}
+.footer-menu li a{
+    margin-right: 30px;
+    text-decoration: none;
+}
+.sponsors ul{
+    display: inline-block;
+    
+    color: #be9342;
+}
+.sponsors p {
+    color: #be9342;
+}
+.sponsors{
+    text-align: center;
+}
+.Tmembers {
+    text-align: center;
+    color: #be9342;
+
+}
+.dlmem{ 
+    display: flex;
+    justify-content: center;
+}
+.Tmembers dl{
+    margin-right: 30px;
+}

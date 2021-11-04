@@ -1,0 +1,14 @@
+.parent{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.box-1{
+    width: 300px;
+}
+.box-2{
+    width: 300px;
+}
+.box-3{
+    width: 300px;
+}
